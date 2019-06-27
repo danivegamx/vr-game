@@ -1,4 +1,4 @@
-version: 0.2
+version: 0.1
 
 #env:
 #variables:
@@ -10,10 +10,8 @@ version: 0.2
 
 phases:
   install:
-    runtime-versions:
-      nodejs: 10
-  # commands:
-    # - npm install
+    commands:
+      - npm install
     # - command
   #finally:
     # - command
@@ -28,7 +26,6 @@ phases:
     # - command
 build:
   commands:
-    - npm install
     - npm run bundle
     - echo "Build Done!"
     # - command
