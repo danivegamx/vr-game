@@ -89,7 +89,7 @@ export default class Board extends Component {
         openedIcons: Icons,
         finalizedIcons: pairedIcons,
       });
-      if (openedIcons.length === 1) {
+      if (openedIcons.length === 2) {
         setTimeout(() => {
           this.check();
         }, 750);

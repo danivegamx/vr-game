@@ -41,7 +41,6 @@ phases:
       #- mkdir build/static_assets/
       #- cp -R static_assets build/static_assets/
       #
-      - echo "VR-INFO ----- Assets moved!"
   #finally:
     # - command
     # - command
