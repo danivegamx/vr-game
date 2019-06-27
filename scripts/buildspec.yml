@@ -36,10 +36,10 @@ phases:
   #finally:
     # - command
     # - command
-#post_build:
-  #commands:
+post_build:
+  commands:
     # - command
-    # - command
+    - cp -R static_assets build/static_assets/
   #finally:
     # - command
     # - command
