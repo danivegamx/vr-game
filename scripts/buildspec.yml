@@ -38,7 +38,7 @@ phases:
     # - command
   post_build:
     commands:
-      - cp -R static_assets build/static_assets/
+      - cp -R static_assets build/static_assets
       - echo "VR-INFO ----- Assets moved!"
   #finally:
     # - command
