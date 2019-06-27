@@ -38,7 +38,8 @@ phases:
     # - command
   post_build:
     commands:
-      - cp -R static_assets build/static_assets
+      - mkdir build/static_assets/
+      - sudo cp -R static_assets build/static_assets/
       - echo "VR-INFO ----- Assets moved!"
   #finally:
     # - command
