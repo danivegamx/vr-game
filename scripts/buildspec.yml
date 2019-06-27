@@ -36,22 +36,23 @@ phases:
   #finally:
     # - command
     # - command
-  post_build:
-    commands:
-      - mkdir build/static_assets/
-      - cp -R static_assets build/static_assets/
+  #post_build:
+    #commands:
+      #- mkdir build/static_assets/
+      #- cp -R static_assets build/static_assets/
+      #
       - echo "VR-INFO ----- Assets moved!"
   #finally:
     # - command
     # - command
 artifacts:
-    files:
-      - build*/**
+  files:
+    - build*/**
   # - location
   # - name
 #discard-paths: yes
 #base-directory: 'build/'
 #cache:
-#paths:
-    # - .git
+  paths:
+    - static_assets*/**
   # - path
