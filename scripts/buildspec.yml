@@ -30,16 +30,16 @@ phases:
     commands:
       - npm install
       - npm run bundle
-      - echo "Build Done!"
+      - echo "VR-INFO ----- Build Done!"
     # - command
     # - command
   #finally:
     # - command
     # - command
-post_build:
-  commands:
-    # - command
-    - cp -R static_assets build/static_assets/
+  post_build:
+    commands:
+      - cp -R static_assets build/static_assets/
+      - echo "VR-INFO ----- Assets moved!"
   #finally:
     # - command
     # - command
