@@ -47,10 +47,9 @@ phases:
 artifacts:
   files:
     - build*/**
-  # - location
   # - name
 #discard-paths: yes
-#base-directory: 'build/'
+  # base-directory: '/'
 #cache:
   paths:
     - static_assets*/**
