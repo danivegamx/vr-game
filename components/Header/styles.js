@@ -7,8 +7,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     position: 'absolute',
-    top: 30,
-    width: '95%',
+    top: 130,
+    width: '93%',
   },
   health: {
     height: 15,
@@ -31,12 +31,9 @@ const styles = StyleSheet.create({
     top: 20,
     left: 90,
   },
-  logoBox: {
-    padding: 10,
-  },
   logo: {
-    width: 150,
-    height: 51,
+    width: 200,
+    height: 74,
   },
   newGameButton: {
     backgroundColor: '#f39c12',

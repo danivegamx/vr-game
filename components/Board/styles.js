@@ -5,9 +5,9 @@ import {
 const styles = StyleSheet.create({
   board: {
     width: '80%',
-    height: 440,
+    height: 540,
     position: 'absolute',
-    top: 130,
+    top: 230,
   },
   col: {
     flex: 1,
@@ -35,27 +35,27 @@ const styles = StyleSheet.create({
     borderColor: '#262261',
   },
   cardButton: {
-    width: '90%',
-    height: '90%',
+    width: '92%',
+    height: '95%',
     backgroundColor: '#dfe6e9',
     borderRadius: 5,
     position: 'relative',
   },
   cardImg: {
-    width: 40,
-    height: 50,
+    width: 50,
+    height: 60,
     position: 'absolute',
     left: '50%',
-    marginLeft: -20,
-    top: 22,
+    marginLeft: -25,
+    top: 32,
   },
   cardImgIcon: {
-    width: 80,
-    height: 96,
+    width: 100,
+    height: 120,
     position: 'absolute',
     left: '50%',
-    marginLeft: -40,
-    top: 0,
+    marginLeft: -50,
+    top: 5,
   },
 });
 

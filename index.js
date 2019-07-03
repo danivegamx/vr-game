@@ -11,8 +11,8 @@ import Board from './components/Board';
 
 const styles = StyleSheet.create({
   wrapper: {
-    width: 1000,
-    height: 780,
+    width: 1200,
+    height: 900,
     justifyContent: 'center',
     alignItems: 'center',
     position: 'relative',
@@ -23,6 +23,10 @@ const styles = StyleSheet.create({
     height: 780,
     top: 0,
     left: 0,
+  },
+  gameOverText: {
+    fontSize: 42,
+    color: 'white',
   },
 });
 
@@ -109,7 +113,7 @@ class VrMemoryGame extends Component {
             />
           ) : (
             <View>
-              <Text>Game Over</Text>
+              <Text style={styles.gameOverText}>GAME OVER</Text>
             </View>
           )
         }
