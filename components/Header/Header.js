@@ -25,7 +25,7 @@ const Header = (props) => {
         triggerGameOver={triggerGameOver}
       />
       <View style={styles.logoBox}>
-        <Image style={styles.logo} source={asset('ioconnect_logo1.png')} />
+        <Image style={styles.logo} source={asset('ss.png')} />
       </View>
       <StatusBar
         resetGame={resetGame}

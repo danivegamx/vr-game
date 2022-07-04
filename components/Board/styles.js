@@ -37,17 +37,16 @@ const styles = StyleSheet.create({
   cardButton: {
     width: '92%',
     height: '95%',
-    backgroundColor: '#dfe6e9',
-    borderRadius: 5,
+    backgroundColor: 'rgba(25, 42, 86, 0.8)',
     position: 'relative',
   },
   cardImg: {
-    width: 50,
-    height: 60,
+    width: 20,
+    height: 30,
     position: 'absolute',
     left: '50%',
-    marginLeft: -25,
-    top: 32,
+    marginLeft: -10,
+    top: 50,
   },
   cardImgIcon: {
     width: 100,

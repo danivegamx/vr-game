@@ -15,6 +15,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: 5,
     left: 5,
+    fontWeight: 'bold',
   },
   healthLabel: {
     color: 'white',
@@ -31,17 +32,16 @@ const styles = StyleSheet.create({
     top: 20,
     left: 90,
   },
+  logoBox: {
+    top: 0,
+  },
   logo: {
-    width: 200,
-    height: 74,
+    width: 250,
+    height: 60,
   },
   newGameButton: {
-    backgroundColor: '#f39c12',
-    borderColor: '#e67e22',
-    borderTopWidth: 1,
-    borderLeftWidth: 1,
-    borderBottomWidth: 4,
-    borderRightWidth: 4,
+    backgroundColor: 'rgba(252, 66, 123,1.0)',
+    color: 'white',
     right: 90,
     top: 10,
     position: 'absolute',

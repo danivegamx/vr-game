@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-vrmemorygamereact-dev-125907-authRole",
+      "UnauthRoleArn": "arn:aws:iam::447503868743:role/amplify-vrmemorygamereact-dev-125907-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::447503868743:role/amplify-vrmemorygamereact-dev-125907-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-vrmemorygamereact-dev-125907-deployment",
+      "UnauthRoleName": "amplify-vrmemorygamereact-dev-125907-unauthRole",
+      "StackName": "amplify-vrmemorygamereact-dev-125907",
+      "StackId": "arn:aws:cloudformation:us-east-1:447503868743:stack/amplify-vrmemorygamereact-dev-125907/8214c630-f967-11ec-93ae-0a1ac6941e75",
+      "AmplifyAppId": "d10aab7upo95mo"
+    }
+  }
+}

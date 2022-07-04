@@ -16,30 +16,12 @@ const Card = (props) => {
     close,
     complete,
   } = props;
-  // let borderStyle;
-  // switch (j) {
-  // case 0:
-  //   borderStyle = styles.first;
-  //   break;
-  // case 1:
-  //   borderStyle = styles.second;
-  //   break;
-  // case 2:
-  //   borderStyle = styles.second;
-  //   break;
-  // case 3:
-  //   borderStyle = styles.fourth;
-  //   break;
-  // default:
-  //   borderStyle = {};
-  //   break;
-  // }
   return (
     <VrButton style={[styles.cardButton]} onClick={click}>
       <View>
         {
           close ? (
-            <Image style={styles.cardImg} source={asset('iocs.png')} />
+            <Image style={styles.cardImg} source={asset('s.png')} />
           ) : (
             <Image style={styles.cardImgIcon} source={asset(`${icon}.png`)} />
           )
